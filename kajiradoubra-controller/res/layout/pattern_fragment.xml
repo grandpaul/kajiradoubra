@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:columnCount="3"
+	    android:orientation="horizontal"
+	    tools:context=".GridXMLActivity" >
+  <Button
+      android:id="@+id/button_FF"
+      android:layout_gravity="left|top"
+      android:text="FF"
+      />
+  <Button
+      android:id="@+id/button_11claps"
+      android:layout_gravity="left|top"
+      android:text="11claps"
+      />
+</GridLayout>

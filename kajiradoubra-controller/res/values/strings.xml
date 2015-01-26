@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">KajiraDouBraController</string>
+  <string name="button_forward">Forward</string>
+  <string name="button_left">Left</string>
+  <string name="button_right">Right</string>
+  <string name="action_search">Search</string>
+  <string name="action_settings">Settings</string>
+</resources>

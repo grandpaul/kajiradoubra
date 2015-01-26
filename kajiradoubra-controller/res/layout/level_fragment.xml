@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" >
+
+    <TextView
+	android:id="@+id/textview_left"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignParentLeft="true"
+	android:layout_alignParentTop="true"
+	android:text="@string/button_left"
+	android:textAppearance="?android:attr/textAppearanceLarge" >
+    </TextView>
+
+    <SeekBar
+	android:id="@+id/seekbar_left"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentLeft="true"
+	android:layout_below="@id/textview_left"
+	android:layout_marginTop="26dp"
+	android:max="35" >
+    </SeekBar>
+  </RelativeLayout>
+  <RelativeLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" >
+
+    <TextView
+	android:id="@+id/textview_right"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_alignParentLeft="true"
+	android:layout_alignParentTop="true"
+	android:text="@string/button_right"
+	android:textAppearance="?android:attr/textAppearanceLarge" >
+    </TextView>
+
+    <SeekBar
+	android:id="@+id/seekbar_right"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentLeft="true"
+	android:layout_below="@id/textview_right"
+	android:layout_marginTop="26dp"
+	android:max="35" >
+    </SeekBar>
+  </RelativeLayout>
+</LinearLayout>
