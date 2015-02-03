@@ -10,7 +10,7 @@
       android:layout_height="wrap_content" >
 
     <TextView
-	android:id="@+id/textview_left"
+	android:id="@+id/textview_level_left"
 	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
 	android:layout_alignParentLeft="true"
@@ -20,11 +20,11 @@
     </TextView>
 
     <SeekBar
-	android:id="@+id/seekbar_left"
+	android:id="@+id/seekbar_level_left"
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"
 	android:layout_alignParentLeft="true"
-	android:layout_below="@id/textview_left"
+	android:layout_below="@id/textview_level_left"
 	android:layout_marginTop="26dp"
 	android:max="35" >
     </SeekBar>
@@ -34,7 +34,7 @@
       android:layout_height="wrap_content" >
 
     <TextView
-	android:id="@+id/textview_right"
+	android:id="@+id/textview_level_right"
 	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
 	android:layout_alignParentLeft="true"
@@ -44,11 +44,11 @@
     </TextView>
 
     <SeekBar
-	android:id="@+id/seekbar_right"
+	android:id="@+id/seekbar_level_right"
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"
 	android:layout_alignParentLeft="true"
-	android:layout_below="@id/textview_right"
+	android:layout_below="@id/textview_level_right"
 	android:layout_marginTop="26dp"
 	android:max="35" >
     </SeekBar>

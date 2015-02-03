@@ -9,16 +9,22 @@
   <Button
       android:id="@+id/button_pattern_stop"
       android:layout_gravity="left|top"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
       android:text="stop"
       />
   <Button
       android:id="@+id/button_pattern_FF"
       android:layout_gravity="left|top"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
       android:text="FF"
       />
   <Button
       android:id="@+id/button_pattern_11claps"
       android:layout_gravity="left|top"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
       android:text="11claps"
       />
 </GridLayout>

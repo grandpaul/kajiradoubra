@@ -44,7 +44,7 @@ public class LevelFragment extends Fragment {
 
 	mActivity = (KajiraDouBraController)getActivity();
 	
-	SeekBar seekBarLeft = (SeekBar)mActivity.findViewById(R.id.seekbar_left);
+	SeekBar seekBarLeft = (SeekBar)mActivity.findViewById(R.id.seekbar_level_left);
 	seekBarLeft.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 		@Override
 		public void onStopTrackingTouch(SeekBar seekBar) {
@@ -60,7 +60,7 @@ public class LevelFragment extends Fragment {
 		}
 	    });
 	
-	SeekBar seekBarRight = (SeekBar)mActivity.findViewById(R.id.seekbar_right);
+	SeekBar seekBarRight = (SeekBar)mActivity.findViewById(R.id.seekbar_level_right);
 	seekBarRight.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
 		@Override
 		public void onStopTrackingTouch(SeekBar seekBar) {

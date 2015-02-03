@@ -44,7 +44,7 @@ public class KajiraDouBraController extends FragmentActivity implements ActionBa
     private TabsPagerAdapter mAdapter;
     private ActionBar mActionBar;
     // Tab titles
-    private String[] mTabs = { "LRF", "Level", "Pattern" };
+    private String[] mTabs = { "LRF", "Level", "Pattern", "Console" };
     // Bluetooth
     private BluetoothAdapter mBluetoothAdapter = null;
     private BluetoothDevice mBluetoothDevice = null;
@@ -70,6 +70,8 @@ public class KajiraDouBraController extends FragmentActivity implements ActionBa
 		return new LevelFragment();
 	    case 2:
 		return new PatternFragment();
+	    case 3:
+		return new ConsoleFragment();
 	    }
 	
 	    return null;
@@ -78,7 +80,7 @@ public class KajiraDouBraController extends FragmentActivity implements ActionBa
 	@Override
 	public int getCount() {
 	    // get item count - equal to number of tabs
-	    return 3;
+	    return 4;
 	}
     }
     
@@ -91,7 +93,7 @@ public class KajiraDouBraController extends FragmentActivity implements ActionBa
         setContentView(R.layout.main);
 
 	// Initilization
-	mViewPager = (ViewPager) findViewById(R.id.pager);
+	mViewPager = (ViewPager) findViewById(R.id.main_pager);
 	mActionBar = getActionBar();
 	mAdapter = new TabsPagerAdapter(getSupportFragmentManager());
 

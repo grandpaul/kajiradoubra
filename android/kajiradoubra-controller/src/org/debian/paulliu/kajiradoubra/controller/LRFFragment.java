@@ -43,7 +43,7 @@ public class LRFFragment extends Fragment {
 
 	mActivity = (KajiraDouBraController)getActivity();
 	
-	View forwardButton = mActivity.findViewById(R.id.button_forward);
+	View forwardButton = mActivity.findViewById(R.id.button_lrf_forward);
 	forwardButton.setOnTouchListener(new View.OnTouchListener() {
 		@Override
 		public boolean onTouch(View view, MotionEvent e) {
@@ -56,7 +56,7 @@ public class LRFFragment extends Fragment {
 		}
 	    });
 	
-	View leftButton = mActivity.findViewById(R.id.button_left);
+	View leftButton = mActivity.findViewById(R.id.button_lrf_left);
 	leftButton.setOnTouchListener(new View.OnTouchListener() {
 		@Override
 		public boolean onTouch(View view, MotionEvent e) {
@@ -69,7 +69,7 @@ public class LRFFragment extends Fragment {
 		}
 	    });
 
-	View rightButton = mActivity.findViewById(R.id.button_right);
+	View rightButton = mActivity.findViewById(R.id.button_lrf_right);
 	rightButton.setOnTouchListener(new View.OnTouchListener() {
 		@Override
 		public boolean onTouch(View view, MotionEvent e) {
