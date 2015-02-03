@@ -7,12 +7,17 @@
 	    android:orientation="horizontal"
 	    tools:context=".GridXMLActivity" >
   <Button
-      android:id="@+id/button_FF"
+      android:id="@+id/button_pattern_stop"
+      android:layout_gravity="left|top"
+      android:text="stop"
+      />
+  <Button
+      android:id="@+id/button_pattern_FF"
       android:layout_gravity="left|top"
       android:text="FF"
       />
   <Button
-      android:id="@+id/button_11claps"
+      android:id="@+id/button_pattern_11claps"
       android:layout_gravity="left|top"
       android:text="11claps"
       />

@@ -44,9 +44,11 @@ public class PatternFragment extends Fragment implements View.OnClickListener {
 	mActivity = (KajiraDouBraController)getActivity();
 
 	Button button = null;
-	button = (Button)mActivity.findViewById(R.id.button_FF);
+	button = (Button)mActivity.findViewById(R.id.button_pattern_stop);
 	button.setOnClickListener(this);
-	button = (Button)mActivity.findViewById(R.id.button_11claps);
+	button = (Button)mActivity.findViewById(R.id.button_pattern_FF);
+	button.setOnClickListener(this);
+	button = (Button)mActivity.findViewById(R.id.button_pattern_11claps);
 	button.setOnClickListener(this);
 	
     }
@@ -54,15 +56,21 @@ public class PatternFragment extends Fragment implements View.OnClickListener {
     @Override
     public void onClick(View view) {
 	switch (view.getId()) {
-	case R.id.button_FF:
+	case R.id.button_pattern_stop:
+	    onClicked_stop(view);
+	    break;
+	case R.id.button_pattern_FF:
 	    onClicked_FF(view);
 	    break;
-	case R.id.button_11claps:
+	case R.id.button_pattern_11claps:
 	    onClicked_11claps(view);
 	    break;
 	}
     }
 
+    public void onClicked_stop(View view) {
+	sendBluetoothData("l0r0");
+    }
     public void onClicked_FF(View view) {
 	sendBluetoothData("(l0rZs3l6rUs3lCrOs3lIrIs3lOrCs3lUr6s3lZr0s3lUr6s3lOrCs3lIrIs3lCrOs3l6rUs3l0rZs3)");
     }
