@@ -81,16 +81,18 @@ Arduino 連接藍芽模組. 並用 motor driver 控制震動馬達.
 
 ### arduino
 
- 1. 建議直接購買 arduino uno.
+ * 建議直接購買 Arduino UNO.
+ * 我是用自己做的 Arduino Severino. 但成本已大於直接上淘寶買的副牌 UNO.
 
 ### shield
 
- Arduino 上的 shield. 基本上就是用 motor driver L297D 控制兩個震動馬達.
+ Arduino 上的 shield. 基本上就是用 motor driver L293D
+ 控制兩個震動馬達的簡單電路.
 
  Parts 列表:
- * 一顆 L297D
- * 一顆 7805 regulator 輸出 5V 用
- * 兩個電容器穩壓用. 我是用 4.7uf 的
+ * 一顆 L293D
+ * 一顆 7805 regulator, 輸出 5V 用
+ * 兩個電容器穩壓用. 分別接 VCC-GND 及 5V-GND. 我是用 4.7uf 的積層電容.
  * 一些 2.54mm 長排針用來連接 arduino
  * 4-pin 母座用來插 HC-06 藍芽模組.
  * HC-06 藍芽模組
@@ -98,13 +100,18 @@ Arduino 連接藍芽模組. 並用 motor driver 控制震動馬達.
 
 #### schematic
 
-   Arduino 的 3, 5 pin 接到 L297D 的兩個 en.
+   7805 從 arduino 上的 Vin 輸入電壓. 輸出 5V 給 motor 用.
+
+   Arduino 的 3, 5 pin 接到 L293D 的兩個 EN.
    因為 3, 5 pin 可以輸出 PWM, 就可以控制震動大小.
    而 10/11 pin 則是設成 serial 來連接 HC-06
    
    ![schematic](images/kajiradoubrashieldschematic.jpg)
  
 #### 洞洞板 layout
+
+   - 藍色的線是底部銲錫那面的線.
+   - 紅色的線是跳線
 
    ![front](images/shieldbbfront.png)
    ![back](images/shieldbbback.png)
