@@ -33,7 +33,7 @@ public class LRFFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			     Bundle savedInstanceState) {
 	super.onCreateView(inflater, container, savedInstanceState);
-	View rootView = inflater.inflate(R.layout.lrf, container, false);
+	View rootView = inflater.inflate(R.layout.lrf_fragment, container, false);
 	return rootView;
     }
 
