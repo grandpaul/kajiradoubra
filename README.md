@@ -57,7 +57,7 @@ Arduino 連接藍芽模組. 並用 motor driver 控制震動馬達.
 1. 首先, 你需要一個奴隸 (submissive).
 
 2. 然後把她戴上眼罩 如圖所示
- ![submissive](images/submissive02.png)
+ ![submissive](images/submissive2.png)
 
 3. 命令: 如果左邊震動, 就原地左轉. 如果右邊震動, 就原地右轉. 如果兩邊都震動, 就向前進
 
