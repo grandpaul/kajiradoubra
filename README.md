@@ -29,12 +29,21 @@ Arduino 連接藍芽模組. 並用 motor driver 控制震動馬達.
 
 此產品提供多種有趣玩法. 可自行 DIY 更多玩法. 歡迎分享 idea.
 
+首先, 手機必須與胸罩藍芽裝置配對.
+胸罩藍芽裝置預設名稱是 KajiraDouBra 密碼預設是 1234
+
+然後安裝胸罩控制 app.
+
+然後穿上胸罩. 並開啟 app 操作胸罩.
+
 ### 胸部按摩
 
 本產品總共提供 36 段強度控制. 透過手機 app
 介面可以任意調整自己覺得最舒服的強度.
 每天按摩胸部 5 分鐘聽說還可以變大.
 多愛自己一點多多按摩.
+
+![screenshot](images/Screenshot_2015-02-07-04-30-17.png)
 
 ### 變頻震動
 
@@ -43,6 +52,8 @@ Arduino 連接藍芽模組. 並用 motor driver 控制震動馬達.
  * FF 水晶震動: 從左到右, 再由右到左, 讓您回味無窮
  * 愛的鼓勵: 給自己一個愛的鼓勵
  * ...
+
+![screenshot](images/Screenshot_2015-02-07-04-30-27.png)
 
 ### 摩斯電碼
 
@@ -63,6 +74,7 @@ Arduino 連接藍芽模組. 並用 motor driver 控制震動馬達.
 
 4. 你得到了一個以活人為零件的遙控式雙足步行機器人.
 
+![screenshot](images/Screenshot_2015-02-07-04-35-44.png)
 
 ### Programmer mode
 
@@ -78,6 +90,8 @@ Arduino 連接藍芽模組. 並用 motor driver 控制震動馬達.
  * l0rZ 左邊停止右邊震動
  * l0r0sAlZrZsA 停止一秒. 震動一秒, 反覆循環
  * l0r0s5lZrZs5l0r0s5lZrZs5l0r0e 震動兩次後停止
+
+![screenshot](images/Screenshot_2015-02-07-04-30-46.png)
 
 ## 如何製作 HOWTO
 
