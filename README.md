@@ -107,6 +107,8 @@ Arduino 連接藍芽模組. 並用 motor driver 控制震動馬達.
  * 建議直接購買 Arduino UNO.
  * 我是用自己做的 Arduino Severino. 但成本已大於直接上淘寶買的副牌 UNO.
 
+ [!Arduino Severino](images/IMG_20150208_025002.jpg)
+
 ### shield
 
  Arduino 上的 shield. 基本上就是用 motor driver L293D
