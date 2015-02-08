@@ -41,7 +41,7 @@ Arduino 連接藍芽模組. 並用 motor driver 控制震動馬達.
 本產品總共提供 36 段強度控制. 透過手機 app
 介面可以任意調整自己覺得最舒服的強度.
 每天按摩胸部 5 分鐘聽說還可以變大.
-多愛自己一點多多按摩.
+多多按摩吧.
 
 ![screenshot](images/Screenshot_2015-02-07-04-30-17.png)
 
@@ -75,6 +75,7 @@ Arduino 連接藍芽模組. 並用 motor driver 控制震動馬達.
 4. 你得到了一個以活人為零件的遙控式雙足步行機器人.
 
 ![screenshot](images/Screenshot_2015-02-07-04-35-44.png)
+[![demo video](http://img.youtube.com/vi/EHJscPXU_sQ/0.jpg)](http://youtu.be/EHJscPXU_sQ)
 
 ### Programmer mode
 
@@ -109,6 +110,11 @@ Arduino 連接藍芽模組. 並用 motor driver 控制震動馬達.
 
  ![Arduino Severino](images/IMG_20150208_025002.jpg)
 
+ * 組合 shield 後的照片
+
+ ![image](images/IMG_20150208_174306.jpg)
+ ![image](images/IMG_20150208_174327.jpg)
+
 ### shield
 
  Arduino 上的 shield. 基本上就是用 motor driver L293D
@@ -141,3 +147,20 @@ Arduino 連接藍芽模組. 並用 motor driver 控制震動馬達.
    ![front](images/shieldbbfront.png)
    ![back](images/shieldbbback.png)
 
+   ![front](images/IMG_20150208_173813.jpg)
+   ![back](images/IMG_20150208_173826.jpg)
+
+   ![image](images/IMG_20150208_174226.jpg)
+   ![image](images/IMG_20150208_174236.jpg)
+
+### 震動馬達
+
+將馬達焊接成杜邦 2.54mm 端子
+
+![image](images/IMG_20150208_173646.jpg)
+
+### 胸罩
+
+在乳頭處, 用薄布料縫上 1cm*1cm 開口向上的口袋, 用來承裝震動馬達
+
+![image](images/IMG_20150208_173550.jpg)
