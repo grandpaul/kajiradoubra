@@ -10,11 +10,10 @@ Please don't scroll down if you are under age of 18.
 ![Adults only US](http://upload.wikimedia.org/wikipedia/commons/b/be/ESRB_2013_Adults_Only.png)
 ![Adults only TW](http://upload.wikimedia.org/wikipedia/commons/d/d5/GSRR_R_logo.svg)
 
-Please close the window immediately if you are under age of 18.
+# Please close the window immediately if you are under age of 18.
 
-如果您未滿十八歲, 請立刻關閉視窗.
+# 如果您未滿十八歲, 請立刻關閉視窗.
 
-# 哼哼 向東瀛女優國致敬
 
 ## 說明
 
@@ -44,6 +43,10 @@ Arduino 連接藍芽模組. 並用 motor driver 控制震動馬達.
 多多按摩吧.
 
 ![screenshot](images/Screenshot_2015-02-07-04-30-17.png)
+
+Demo 影片:
+[![demo video](http://img.youtube.com/vi/5fDHTwrb4qI/0.jpg)](http://youtu.be/5fDHTwrb4qI)
+
 
 ### 變頻震動
 
@@ -75,6 +78,8 @@ Arduino 連接藍芽模組. 並用 motor driver 控制震動馬達.
 4. 你得到了一個以活人為零件的遙控式雙足步行機器人.
 
 ![screenshot](images/Screenshot_2015-02-07-04-35-44.png)
+
+Demo 影片:
 [![demo video](http://img.youtube.com/vi/EHJscPXU_sQ/0.jpg)](http://youtu.be/EHJscPXU_sQ)
 
 ### Programmer mode
