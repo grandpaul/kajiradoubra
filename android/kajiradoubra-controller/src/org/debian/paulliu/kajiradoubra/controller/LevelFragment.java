@@ -28,7 +28,7 @@ import android.widget.*;
 public class LevelFragment extends Fragment {
 
     private KajiraDouBraController mActivity = null;
-    private static final String LEVELSTR = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    private static final String LEVELSTR = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,

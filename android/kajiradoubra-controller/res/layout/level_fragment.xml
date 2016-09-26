@@ -26,7 +26,7 @@
 	android:layout_alignParentLeft="true"
 	android:layout_below="@id/textview_level_left"
 	android:layout_marginTop="26dp"
-	android:max="35" >
+	android:max="63" >
     </SeekBar>
   </RelativeLayout>
   <RelativeLayout
@@ -50,7 +50,7 @@
 	android:layout_alignParentLeft="true"
 	android:layout_below="@id/textview_level_right"
 	android:layout_marginTop="26dp"
-	android:max="35" >
+	android:max="63" >
     </SeekBar>
   </RelativeLayout>
 </LinearLayout>

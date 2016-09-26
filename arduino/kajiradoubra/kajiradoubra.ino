@@ -119,7 +119,7 @@ void handleSerialCommand() {
       if (serialCommandBufferLen >= 2) {
         char levelChar = serialCommandBuffer[1];
 	int level = hexCharToInt(levelChar);
-        analogWrite(pinPWMLeft, (level*255)/35);
+        analogWrite(pinPWMLeft, (level*255)/63);
         serialCommandBufferLen = 0;
         serialCommandBuffer[serialCommandBufferLen] = '\0';
       }
@@ -127,7 +127,7 @@ void handleSerialCommand() {
       if (serialCommandBufferLen >= 2) {
         char levelChar = serialCommandBuffer[1];
 	int level = hexCharToInt(levelChar);
-        analogWrite(pinPWMRight, (level*255)/35);
+        analogWrite(pinPWMRight, (level*255)/63);
         serialCommandBufferLen=0;
         serialCommandBuffer[serialCommandBufferLen]='\0';
       }
@@ -156,12 +156,12 @@ void handleSerialCommand() {
 void runRepeatCmd() {
   if (repeatMode.cmd[repeatMode.pc] == 'l' && repeatMode.pc+1<repeatMode.cmdLen) {
     int level = hexCharToInt(repeatMode.cmd[repeatMode.pc+1]);
-    analogWrite(pinPWMLeft, (level*255)/35);
+    analogWrite(pinPWMLeft, (level*255)/63);
     repeatMode.time = millis();
     repeatMode.pc+=2;
   } else if (repeatMode.cmd[repeatMode.pc] == 'r' && repeatMode.pc+1<repeatMode.cmdLen) {
     int level = hexCharToInt(repeatMode.cmd[repeatMode.pc+1]);
-    analogWrite(pinPWMRight, (level*255)/35);
+    analogWrite(pinPWMRight, (level*255)/63);
     repeatMode.time = millis();
     repeatMode.pc+=2;
   } else if (repeatMode.cmd[repeatMode.pc] == 's' && repeatMode.pc+1<repeatMode.cmdLen) {
@@ -187,9 +187,15 @@ void runRepeatCmd() {
 int hexCharToInt(char c) {
   int ret=0;
   if ('0' <= c && c <= '9') {
-    ret = c-'0';
+    ret = c-'0'+52;
   } else if ('A' <= c && c <= 'Z') {
-    ret = c-'A'+10;
+    ret = c-'A';
+  } else if ('a' <= c && c <= 'z') {
+    ret = c-'a'+26;
+  } else if (c == '+') {
+    ret = 62;
+  } else if (c == '/') {
+    ret = 63;
   }
   return ret;
 }

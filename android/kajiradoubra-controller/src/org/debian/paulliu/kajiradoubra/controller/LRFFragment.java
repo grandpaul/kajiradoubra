@@ -86,32 +86,32 @@ public class LRFFragment extends Fragment {
 
     public boolean onForwardButtonPressed(View view) {
 	Log.i(KajiraDouBraController.LOGTAG,"onForwardButtonPressed");
-	sendBluetoothData("lMrM");
+	sendBluetoothData("luru");
 	return false;
     }
     public boolean onForwardButtonReleased(View view) {
 	Log.i(KajiraDouBraController.LOGTAG,"onForwardButtonReleased");
-	sendBluetoothData("l0r0");
+	sendBluetoothData("lArA");
 	return false;
     }
     public boolean onLeftButtonPressed(View view) {
 	Log.i(KajiraDouBraController.LOGTAG,"onLeftButtonPressed");
-	sendBluetoothData("lM");
+	sendBluetoothData("lu");
 	return false;
     }
     public boolean onLeftButtonReleased(View view) {
 	Log.i(KajiraDouBraController.LOGTAG,"onLeftButtonReleased");
-	sendBluetoothData("l0");
+	sendBluetoothData("lA");
 	return false;
     }
     public boolean onRightButtonPressed(View view) {
 	Log.i(KajiraDouBraController.LOGTAG,"onRightButtonPressed");
-	sendBluetoothData("rM");
+	sendBluetoothData("ru");
 	return false;
     }
     public boolean onRightButtonReleased(View view) {
 	Log.i(KajiraDouBraController.LOGTAG,"onRightButtonReleased");
-	sendBluetoothData("r0");
+	sendBluetoothData("rA");
 	return false;
     }
 

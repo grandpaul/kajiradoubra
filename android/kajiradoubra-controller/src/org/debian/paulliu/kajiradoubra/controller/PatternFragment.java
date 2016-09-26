@@ -69,13 +69,13 @@ public class PatternFragment extends Fragment implements View.OnClickListener {
     }
 
     public void onClicked_stop(View view) {
-	sendBluetoothData("l0r0");
+	sendBluetoothData("lArA");
     }
     public void onClicked_FF(View view) {
-	sendBluetoothData("(l0rZs3l6rUs3lCrOs3lIrIs3lOrCs3lUr6s3lZr0s3lUr6s3lOrCs3lIrIs3lCrOs3l6rUs3l0rZs3)");
+	sendBluetoothData("(lAr/sDlKr0sDlUrqsDlgrgsDlqrUsDl0rKsDl/rAsDl0rKsDlqrUsDlgrgsDlUrqsDlKr0sDlAr/sD)");
     }
     public void onClicked_11claps(View view) {
-	sendBluetoothData("(lMrMs4l0r0s4lMrMs4l0r0s4lZrZs2l0r0s2lZrZs2l0r0s2lMrMs4l0r0s4lZrZs2l0r0s2lZrZs2l0r0s2lZrZs2l0r0s2lZrZs2l0r0s6lZrZs2l0r0s2lMrMs4l0r0s4)");
+	sendBluetoothData("(lurusElArAsElurusElArAsEl/r/sClArAsCl/r/sClArAsClurusElArAsEl/r/sClArAsCl/r/sClArAsCl/r/sClArAsCl/r/sClArAsGl/r/sClArAsClurusElArAsE)");
     }
 
     private void sendBluetoothData(String s) {
